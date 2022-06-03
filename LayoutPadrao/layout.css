@@ -2,6 +2,10 @@
     margin: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -15,6 +19,7 @@ header{
     border: 1px solid rgb(100, 102, 237);
     border-radius: 5px;
     height: 30px;
+    width: 500px;
     padding-left: 5px;
 }
 #bt_pesquisar{
@@ -31,6 +36,24 @@ header{
     border: 1px solid rgb(23, 23, 26);
     color: black;
 }
+.caixa{
+    height: 250px;
+    background-color: rgb(17, 17, 37);
+    border-radius: 20px;
+    margin: 3px;
+}
+h2{
+    background-color: #156ED4;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+}
+h3{
+    text-align: center;
+    color: darkgray;
+    padding: 5px;
+}
+
 
 
 
